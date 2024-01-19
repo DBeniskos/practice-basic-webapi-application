@@ -24,6 +24,6 @@ jobs:
 
       - name: Upload Build Artifact
         uses: actions/upload-artifact@v2
-      with:
-       name: Application_Artifact
-       path: /home/runner/work/Artifacts/release/
+        with:
+          name: Application_Artifact
+          path: /home/runner/work/Artifacts/release/
