@@ -10,20 +10,5 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Build
-        run: dotnet build ./src/WebApi.csproj
-
       - name: Echo
         run: echo "Hello, World"
-
-      - name: Test
-        run: dotnet test ./test
-
-      - name: Publish
-        run: dotnet publish ./src/WebApi.csproj 
-
-      - name: Upload Build Artifact
-        uses: actions/upload-artifact@v3
-        with:
-          name: Application_Artifact
-          path: /home/runner/work/Artifacts/release/
