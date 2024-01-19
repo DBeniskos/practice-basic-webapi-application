@@ -23,7 +23,7 @@ jobs:
         run: dotnet test ./test
 
       - name: Publish
-        run: dotnet publish ./Artifacts/release/my_artifact.csproj -c Release -o release — nologo
+        run: dotnet publish ./src/WebApi.csproj -c Release -o release — nologo
 
       - name: Upload Build Artifact
         uses: actions/upload-artifact@v3
