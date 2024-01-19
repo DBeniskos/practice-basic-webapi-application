@@ -1,0 +1,20 @@
+name: WebApi
+
+on:    
+  push:
+    branches: 
+      - feature/DCE-156-walking-skeleton
+    
+
+jobs:
+  webApi-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Build
+        run: dotnet build ./src/PracticeWebApi/PracticeWebApi.csproj
+
+      - name: Echo
+        run: echo "Hello, World"
