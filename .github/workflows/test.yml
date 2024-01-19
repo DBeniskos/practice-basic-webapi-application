@@ -2,9 +2,6 @@ name: WebApi
 
 on:    
   push:
-    branches: 
-      - feature/DCE-156-walking-skeleton
-    
 
 jobs:
   webApi-test:
