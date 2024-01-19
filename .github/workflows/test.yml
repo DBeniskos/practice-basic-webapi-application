@@ -20,7 +20,7 @@ jobs:
         run: echo "Hello, World"
 
       - name: Test
-      run: dotnet test ./test
+        run: dotnet test ./test
 
       - name: Upload Build Artifact
         uses: actions/upload-artifact@v2
