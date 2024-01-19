@@ -18,3 +18,12 @@ jobs:
 
       - name: Echo
         run: echo "Hello, World"
+
+      - name: Test
+      run: dotnet test ./test
+
+      - name: Upload Build Artifact
+        uses: actions/upload-artifact@v2
+      with:
+       name: Application_Artifact
+       path: /home/runner/work/Artifacts/release/
