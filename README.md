@@ -21,3 +21,12 @@ you can download it  [here](https://dotnet.microsoft.com/en-us/download/dotnet/t
 ctl + C
 ```
 ##### Congratulations for running this application 🎉
+
+### 4. Run the unit test
+- in terminal run the following comand : 
+```
+dotnet test
+```
+You will see a report of jobs in terminal about Passed, Faild and Skipped jobs.
+
+##### Congratulations for testing this application :sparkles:
