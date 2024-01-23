@@ -23,6 +23,7 @@ ctl + C
 ##### Congratulations for running this application 🎉
 
 ### 4. Run the unit test
+- open the project folder in your code editor and open terminal
 - in terminal run the following comand : 
 ```
 dotnet test
