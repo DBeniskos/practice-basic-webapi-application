@@ -1,9 +1,9 @@
 namespace test;
 
-public class WebApiExampleTests
+public class WebApiTests
 {
     [Fact]
-    public void ExampleTtest()
+    public void ExampleTest()
     {
        bool result = true;
        Assert.False(result, "This is a fail");
