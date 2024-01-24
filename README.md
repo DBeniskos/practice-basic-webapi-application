@@ -12,9 +12,9 @@ you can download it  [here](https://dotnet.microsoft.com/en-us/download/dotnet/t
 - use bash ```git clone git@githubcom:DBeniskos/practice-basic-webapi-application.git``` in order to clone the repository
 ### 2. Buld and Run the application
 - open the project folder in terminal just like :
-```your_ubuntu_full_path_here_where_the_project_is_cloned/practice-basic-webapi-application```
-- inside this project folder in terminal run ```dotnet build``` to build this application
-- after that run ```dotnet run --project src/WebApi/``` to run the application
+```YourUbuntuFullPathHereWhereTheProjectIsCloned/practice-basic-webapi-application```
+- inside this project folder in terminal run ```dotnet build .\src\WebApi\``` to build this application
+- after that run ```dotnet run --project ./src/WebApi/``` to run the application
 
 ### 3. Stop the application
 - in terminal run the following comand : 
@@ -25,8 +25,9 @@ ctl + C
 
 ### 4. Run the unit test
 - open the project folder in terminal just like :
-```your_ubuntu_full_path_here_where_the_project_is_cloned/practice-basic-webapi-application```
-- inside this project folder in terminal run following comand :
+```YourUbuntuFullPathHereWhereTheProjectIsCloned/practice-basic-webapi-application```
+- inside this project folder in terminal run ```dotnet build .\test\WebApi.Tests\``` to build the test
+- after that run following comand :
 ```
 dotnet test
 ```
