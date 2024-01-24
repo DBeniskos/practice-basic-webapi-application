@@ -14,7 +14,7 @@ you can download it  [here](https://dotnet.microsoft.com/en-us/download/dotnet/t
 - open the project folder in terminal just like :
 ```your_ubuntu_full_path_here_where_the_project_is_cloned/practice-basic-webapi-application```
 - inside this project folder in terminal run ```dotnet build``` to build this application
-- after that run ```dotnet run --project src/``` to run the application
+- after that run ```dotnet run --project src/WebApi/``` to run the application
 
 ### 3. Stop the application
 - in terminal run the following comand : 
