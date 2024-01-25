@@ -3,11 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{59C78098-E60C-4C5B-9674-43C93D2F36B8}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.Tests", "test\WebApi.Tests\WebApi.Tests.csproj", "{7F65A87F-C9DF-4E9B-A23A-54254629A232}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4E51E157-EDD0-44AC-B3F2-09D4CA606A60}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "src\WebApi\WebApi.csproj", "{46C05596-F99B-41BC-ADFA-189A2E5C641E}"
 EndProject
@@ -50,7 +46,5 @@ Global
 		{46C05596-F99B-41BC-ADFA-189A2E5C641E}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{7F65A87F-C9DF-4E9B-A23A-54254629A232} = {59C78098-E60C-4C5B-9674-43C93D2F36B8}
-		{46C05596-F99B-41BC-ADFA-189A2E5C641E} = {4E51E157-EDD0-44AC-B3F2-09D4CA606A60}
 	EndGlobalSection
 EndGlobal
