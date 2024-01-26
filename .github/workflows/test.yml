@@ -12,9 +12,12 @@ jobs:
 
       - name: Echo
         run: echo "Hello, World"
-
-      -name: Upload artifact
+      
+      - name: Publish
+        run: dotnet publish src/WebApi/WebApi.csproj -r linux-x64 --self-contained=true -c Release -o release /p:PublishSingleFile=true
+    
+      - name: Upload Artifact
         uses: actions/upload-artifact@v3
-        with: 
-          name: web-application
-          path: .src/
+        with:
+          name: deploy
+          path: ./release/WebApi
