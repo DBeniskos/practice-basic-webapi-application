@@ -13,11 +13,11 @@ jobs:
       - name: Echo
         run: echo "Hello, World"
 
-      - name: Copy files to workspace
-        run: cp ./src/WebApi/bin/Release/net6.0/win10-x64/publish/WebApi.exe ${{ github.workspace }}
+      - name: Publish
+        run: dotnet publish src/WebApi/WebApi.csproj -c Release -r win-x64 -p:PublishSingleFile=true --output ./publish
 
-      - name: Upload Artifact
+      - name: Upload Build Artifact
         uses: actions/upload-artifact@v2
         with:
-          name: MyApp
-          path: ${{ github.workspace }}/WebApi.exe
+          name: Application_Artifact
+          path: ./publish/
