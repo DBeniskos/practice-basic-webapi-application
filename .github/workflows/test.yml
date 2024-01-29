@@ -14,7 +14,7 @@ jobs:
         run: echo "Hello, World"
 
       - name: Copy files to workspace
-        run: cp src/WebApi/bin/Release/net6.0/win10-x64/publish/WebApi.exe ${{ github.workspace }}
+        run: cp ./src/WebApi/bin/Release/net6.0/win10-x64/publish/WebApi.exe ${{ github.workspace }}
 
       - name: Upload Artifact
         uses: actions/upload-artifact@v2
