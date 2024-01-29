@@ -14,12 +14,12 @@ jobs:
         run: echo "Hello, World"
       
      - name: Build and Publish
-      run: |
-        dotnet publish -c Release -r win-x64 --self-contained true /p:PublishSingleFile=true
-        echo "::set-output name=app_path::$(find ./bin/Release/net6.0/win-x64/publish -name '*.exe')"
+        run: |
+          dotnet publish -c Release -r win-x64 --self-contained true /p:PublishSingleFile=true
+          echo "::set-output name=app_path::$(find ./bin/Release/net6.0/win-x64/publish -name '*.exe')"
 
-    - name: Upload Artifact
-      uses: actions/upload-artifact@v2
-      with:
-        name: MyApp
-        path: ${{ steps.build.outputs.app_path }}
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: MyApp
+          path: ${{ steps.build.outputs.app_path }}
