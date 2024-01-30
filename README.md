@@ -34,3 +34,17 @@ dotnet test
 You will see a report of jobs in terminal about Passed, Faild and Skipped jobs.
 
 ##### Congratulations for testing this application :sparkles:
+
+
+# Instructions on how to run this application on windows machine
+
+### 1. Donload artifact
+- navigate to [repository](https://github.com/DBeniskos/practice-basic-webapi-application)
+- click on *Actions* tab
+- click on the latest workflow from *All Workflows* list (the latest is the one on the top) 
+- scroll at the bottom of the page in Artifacts section and the click the **Application_Artifact** to download the artifact
+### 2. Run Apllication
+- navigate to downloaded folder and you will see the *Application_Artifact.zip* folder
+- unzip the folder and you can see an .exe and .txt file
+- open **Readme.txt** file to see intructons about the apllication
+- open **WebApi.exe** file to run the application
