@@ -46,5 +46,11 @@ You will see a report of jobs in terminal about Passed, Faild and Skipped jobs.
 ### 2. Run Apllication
 - navigate to downloaded folder and you will see the *Application_Artifact.zip* folder
 - unzip the folder and you can see an .exe and .txt file
-- open **Readme.txt** file to see intructons about the apllication
-- open **WebApi.exe** file to run the application
+- click on **WebApi.exe** file to run the application
+- a window displaying some infos will automatically open on your pc
+- open a browser and navigate to ``http://localhost:5000``
+you wll see a **Hello World!** message in your browser
+
+### 2. Stop running this Apllication
+- for stopping the applicion just close the window, 
+or you can type : ``ctl + C`` on application window
