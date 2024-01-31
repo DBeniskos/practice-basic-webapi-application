@@ -14,7 +14,7 @@ jobs:
         run: dotnet publish src/WebApi/WebApi.csproj -c Release -r win-x64 -p:PublishSingleFile=true --output ./publish
 
       - name: Copy README
-        run: cp src/WebApi/README.md ./publish/README.md
+        run: cp README.md ./publish/README.md
 
       - name: Upload Build Artifact
         uses: actions/upload-artifact@v3
