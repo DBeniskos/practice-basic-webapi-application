@@ -52,5 +52,5 @@ You will see a report of jobs in terminal about Passed, Faild and Skipped jobs.
 you wll see a **Hello World!** message in your browser
 
 ### 2. Stop running this Apllication
-- for stopping the applicion just close the window, 
+- for stopping the application just close the window, 
 or you can type : ``ctl + C`` on application window
